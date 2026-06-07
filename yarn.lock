@@ -52,17 +52,18 @@
   dependencies:
     ffmpeg-static "^5.2.0"
 
-"@guidepup/setup@^0.21.0":
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/@guidepup/setup/-/setup-0.21.0.tgz#70fb6c6a0b0cee4af9f1c2770677f83cc233c839"
-  integrity sha512-wxl4zFtil9ciGwqJ8+6HNN4KDWh3vVpbLz65hI/BwNwRvLTXrU44iLfVP/A0XhucuEtMKjqhNQR3T9dHRRmnUw==
+"@guidepup/setup@^0.22.0":
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/@guidepup/setup/-/setup-0.22.0.tgz#a96bef6048ccaa45e6f77386a53d71ed8edea252"
+  integrity sha512-vSLtSp5G1+Av39+HgJi4HwrjldYQaK9i6hO+WawB4Fl58BpWKT4OACoTGyYaovMfSaKN1NcqnTdQ4ayVVieeWw==
   dependencies:
-    "@guidepup/record" "^0.1.0"
     chalk "^4.0.0"
     decompress "^4.2.1"
     https-proxy-agent "^7.0.5"
     regedit "5.0.1"
     semver "^7.5.4"
+  optionalDependencies:
+    "@guidepup/record" "^0.1.0"
 
 "@types/node@^10.0.3":
   version "10.17.60"

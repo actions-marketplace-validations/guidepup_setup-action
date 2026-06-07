@@ -5,19 +5,17 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
-  schedule:
-    - cron: "0 0 1 * *" # 1 day of every month
 
 jobs:
   test-macos:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [macos-14, macos-15, macos-26]
+        os: [macos-14, macos-15, macos-15-intel, macos-26, macos-26-intel]
         record: [true, false]
         ignoreTccDb: [true, false]
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
         with:
           node-version-file: .nvmrc
@@ -37,10 +35,10 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [windows-2022, windows-2025]
+        os: [windows-2022, windows-2025, windows-11-arm]
         nvdaInstallDir: ["", "C:\\a\\setup-action\\setup-action\\nvda"]
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: actions/setup-node@v6
         with:
           node-version-file: .nvmrc
