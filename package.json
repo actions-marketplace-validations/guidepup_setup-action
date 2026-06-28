@@ -1,6 +1,6 @@
 {
   "name": "@guidepup/setup-action",
-  "version": "0.20.0",
+  "version": "0.21.0",
   "description": "GitHub Action to setup your environment for screen reader test automation.",
   "main": "index.js",
   "author": "Craig Morten <craig.morten@hotmail.co.uk>",
@@ -23,6 +23,6 @@
   "dependencies": {
     "@actions/core": "^2.0.2",
     "@actions/exec": "^2.0.0",
-    "@guidepup/setup": "^0.22.0"
+    "@guidepup/setup": "^0.23.0"
   }
 }

@@ -52,10 +52,10 @@
   dependencies:
     ffmpeg-static "^5.2.0"
 
-"@guidepup/setup@^0.22.0":
-  version "0.22.0"
-  resolved "https://registry.yarnpkg.com/@guidepup/setup/-/setup-0.22.0.tgz#a96bef6048ccaa45e6f77386a53d71ed8edea252"
-  integrity sha512-vSLtSp5G1+Av39+HgJi4HwrjldYQaK9i6hO+WawB4Fl58BpWKT4OACoTGyYaovMfSaKN1NcqnTdQ4ayVVieeWw==
+"@guidepup/setup@^0.23.0":
+  version "0.23.0"
+  resolved "https://registry.yarnpkg.com/@guidepup/setup/-/setup-0.23.0.tgz#70540e94e0ac071a3a014fcef9c0873f35a40d12"
+  integrity sha512-0VueaaH48QY+3Z+JXq8O+I060HT+lAzvPTw1ufUpIyRw7aVitvNUagJB2L1Fjua/vUAFD9/BbtIGFdU8mhMGMg==
   dependencies:
     chalk "^4.0.0"
     decompress "^4.2.1"
